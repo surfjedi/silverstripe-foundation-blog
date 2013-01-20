@@ -10,6 +10,11 @@ clone into your SilverStripe `themes` directory
 
 `git clone https://github.com/ryanwachtl/silverstripe-foundation-blog.git foundation_blog`
 
+Composer
+=================================
+
+`composer require rywa/foundation_blog dev-master`
+
 Requirements
 =================================
 
