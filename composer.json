@@ -1,0 +1,22 @@
+{
+	"name": "rywa/silverstripe-themes-foundation-blog",
+	"type": "silverstripe-module",
+	"description": "SilverStripe prototyping theme based on Zurb Foundation (for blog module)",
+	"keywords": ["silverstripe", "forms", "zurbfoundation"],
+	"license": "MIT Open Source License",
+	"authors": [
+		{
+			"name": "Ryan Wachtl",
+			"homepage": "http://ryanwachtl.com"
+		}
+	],
+	"require": 
+	{
+		"php": ">=5.3.2",
+		"silverstripe/framework": "3.*",
+		"silverstripe/cms": "3.*"
+	},
+	"support": {
+		"issues": "https://github.com/ryanwachtl/silverstripe-foundation-blog/issues"
+	}
+}
