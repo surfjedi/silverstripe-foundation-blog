@@ -1,5 +1,5 @@
 {
-	"name": "rywa/foundation_blog",
+	"name": "rywa/silverstripe-foundation-blog",
 	"type": "silverstripe-theme",
 	"description": "SilverStripe prototyping theme based on Zurb Foundation (for blog module)",
 	"keywords": ["silverstripe", "forms", "zurbfoundation"],
@@ -14,6 +14,9 @@
 	{
 		"composer/installers": "*",
 		"silverstripe/framework": ">=3.0"
+	},
+	"extra": {
+		"installer-name": "foundation_blog"
 	},
 	"support": {
 		"issues": "https://github.com/ryanwachtl/silverstripe-foundation-blog/issues"
