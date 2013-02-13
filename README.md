@@ -13,7 +13,7 @@ clone into your SilverStripe `themes` directory
 Composer
 =================================
 
-`composer require rywa/foundation_blog dev-master`
+`composer require rywa/silverstripe-foundation-blog dev-master`
 
 Requirements
 =================================
