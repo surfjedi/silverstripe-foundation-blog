@@ -1,6 +1,6 @@
 <div class="row">
 
-	<div class="<% if Menu(2) %>nine<% else %>twelve<% end_if %> columns">
+	<div class="nine columns">
 		<div class="blogcontent">
 			<div class="blogEntry">
 				<h2 class="postTitle">$Title</h2>
@@ -25,10 +25,12 @@
 		</div>
 	</div>
 
-	<% if Menu(2) %>
 	<div class="three columns">
-		<% include SideBar %>
+		<% if Menu(2) %>
+			<% include SideBar %>
+		<% end_if %>
+		<% include BlogSideBar %>
+		<% include BlogPagination %>
 	</div>
-	<% end_if %>
 
 </div>
