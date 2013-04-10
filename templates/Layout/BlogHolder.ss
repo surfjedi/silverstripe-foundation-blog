@@ -33,5 +33,7 @@
 		<% include SideBar %>
 	</div>
 	<% end_if %>
+	<% include BlogSideBar %>
+	<% include BlogPagination %>
 
 </div>
